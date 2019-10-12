@@ -10,7 +10,7 @@ var app = express();
 const port = process.env.PORT || 3000;
 
 // mongoose.connect('mongodb://localhost:27017/TodoApp', {useNewUrlParser: true});
-mongoose.connect('mongodb+srv://saurabh1515:saurabh25@cluster0-3ygc1.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://saurabh:12345@cluster0-3ygc1.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
 
 app.use(bodyParser.json());
 
